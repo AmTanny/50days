@@ -55,6 +55,10 @@ body {
     transition: 0.9s all;
 }
 
+.panel:not(hover) {
+    transition: 0.7s all;
+}
+
 .panel.active h3 {
     opacity: 1;
     transition: opacity 0.3s ease-in;
