@@ -66,3 +66,13 @@ input:focus {
     border: 2px solid #000;
     border-left: none;
 }
+
+@media (max-width: 450px) {
+    .search.active .input {
+        width: 150px;
+    }
+    
+    .search.active .btn {
+        transform: translateX(148px);
+    }
+}
