@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
 
 *{
     box-sizing: border-box;
@@ -29,12 +29,13 @@ a:focus     { color: #fd7e14 }
 h1 {
     color: #fff;
     font-size: 5rem;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 ol li {
     font-size: 1.5rem;
     color: #fff;
+    font-weight: lighter;
 }
 
 span {
