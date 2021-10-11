@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap");
 
 :root {
     --left-bg-color: rgba(87, 84, 236, 0.7);
@@ -29,7 +29,7 @@ h1 {
     top: 30%;
     transform: translateX(-50%);
     white-space: nowrap;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .btn {
