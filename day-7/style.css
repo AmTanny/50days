@@ -49,6 +49,7 @@ h1 {
     width: 15rem;
     padding: 1.5rem;
     opacity: 0.5;
+    letter-spacing: 1px;
 }
 
 .split.left .btn:hover {
