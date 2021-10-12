@@ -28,9 +28,10 @@ h1 {
 }
 
 .box {
-    background-color: #bbb;
+    background-color: #ddd;
     color: #111;
     display: flex;
+    filter: brightness(75%);
     opacity: 0.85;
     align-items: center;
     justify-content: center;
