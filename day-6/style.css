@@ -49,6 +49,7 @@ h1 {
     cursor: pointer;
     background-color: #eee;
     opacity: 1;
+    filter: brightness(100%);
 }
   
 .box:nth-of-type(even) {
