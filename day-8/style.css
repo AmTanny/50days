@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: steelblue;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='3840' height='2160' preserveAspectRatio='none' viewBox='0 0 3840 2160'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1035%26quot%3b)' fill='none'%3e%3crect width='3840' height='2160' x='0' y='0' fill='url(%23SvgjsLinearGradient1036)'%3e%3c/rect%3e%3cpath d='M3840 0L3240.16 0L3840 698.34z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M3240.16 0L3840 698.34L3840 1020.45L3109.5699999999997 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M3109.5699999999997 0L3840 1020.45L3840 1331.64L1210.2699999999998 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M1210.27 0L3840 1331.64L3840 1774.64L604.92 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 2160L1218.41 2160L0 1534.55z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 1534.55L1218.41 2160L2377.76 2160L0 1106.86z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 1106.86L2377.76 2160L3269.28 2160L0 717.4899999999999z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 717.4899999999998L3269.28 2160L3337.6000000000004 2160L0 301.8099999999998z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1035'%3e%3crect width='3840' height='2160' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='10.94%25' y1='-19.44%25' x2='89.06%25' y2='119.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1036'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 57%2c 131%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
     color: #fff;
     font-family: 'Lato', sans-serif;
     display: flex;
@@ -96,7 +96,6 @@ body {
     min-width: 5px;
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-
 
 .form-control input:focus + label span, 
 .form-control input:valid + label span {
