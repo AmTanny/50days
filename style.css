@@ -41,11 +41,11 @@ ol {
 }
 
 .ob:before {
-    content: "0" counter(elementcounter);
+    content: "Day 0" counter(elementcounter) ". ";
     counter-increment: elementcounter;
 }
 
-li:before {
+.ib:before {
     content: "Day " counter(elementcounter) ". ";
     counter-increment: elementcounter;
 }
