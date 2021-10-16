@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -28,11 +28,13 @@ body {
     width: 800px;
     margin-bottom: 50px;
     transition: 0.1s all ease-in;
+    opacity: 0.925;
 }
 
 .container:hover {
     transform: scale(1.01);
     box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.1);
+    opacity: 0.99;
 }
 
 h3 {
