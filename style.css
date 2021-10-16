@@ -34,6 +34,17 @@ h1 {
     font-weight: 100;
 }
 
+ol {
+    list-style-type: none;
+    counter-reset: elementcounter;
+    padding-left: 0;
+}
+
+li:before {
+    content: "Day " counter(elementcounter) ". ";
+    counter-increment: elementcounter;
+}
+
 ol li {
     font-size: 1.5rem;
     color: #fff;
