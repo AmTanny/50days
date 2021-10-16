@@ -40,6 +40,11 @@ ol {
     padding-left: 0;
 }
 
+.ob:before {
+    content: "0" counter(elementcounter);
+    counter-increment: elementcounter;
+}
+
 li:before {
     content: "Day " counter(elementcounter) ". ";
     counter-increment: elementcounter;
