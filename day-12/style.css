@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='3840' height='2160' preserveAspectRatio='none' viewBox='0 0 3840 2160'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1173%26quot%3b)' fill='none'%3e%3crect width='3840' height='2160' x='0' y='0' fill='url(%23SvgjsLinearGradient1174)'%3e%3c/rect%3e%3cpath d='M1355.347%2c1545.464C1542.667%2c1545.57%2c1722.976%2c1458.951%2c1817.03%2c1296.955C1911.458%2c1134.316%2c1902.095%2c931.86%2c1805.18%2c770.691C1711.18%2c614.37%2c1537.593%2c536.852%2c1355.347%2c529.181C1156.199%2c520.799%2c937.391%2c558.969%2c834.769%2c729.846C729.973%2c904.343%2c785.055%2c1124.857%2c894.566%2c1296.434C995.242%2c1454.168%2c1168.222%2c1545.358%2c1355.347%2c1545.464' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M3067.84 1708.22 a483.65 483.65 0 1 0 967.3 0 a483.65 483.65 0 1 0 -967.3 0z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1412.93 440.33 a603.59 603.59 0 1 0 1207.18 0 a603.59 603.59 0 1 0 -1207.18 0z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1618.9465666781875 70.98629675938835L1076.885765354652 301.0774557756273 1306.976924370891 843.1382570991628 1849.0377256944266 613.0470980829239z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M3888.9741847191854 1616.012232224099L3993.654907335226 1311.997338919628 3485.292206070499 1306.9837016478023z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1897.397%2c2247.93C2120.426%2c2251.989%2c2322.246%2c2110.748%2c2423.777%2c1912.128C2517.305%2c1729.164%2c2465.876%2c1517.27%2c2361.323%2c1340.375C2258.993%2c1167.241%2c2098.499%2c1019.35%2c1897.397%2c1021.534C1699.234%2c1023.686%2c1548.314%2c1177.854%2c1450.602%2c1350.265C1354.536%2c1519.771%2c1316.371%2c1719.13%2c1403.188%2c1893.555C1499.999%2c2088.059%2c1680.168%2c2243.977%2c1897.397%2c2247.93' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M2172.8830591062992 1966.9670420834896L2585.9601285694575 1540.0282246514273 2084.3515216087108 1405.6226034997949z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M2584.547305596187 1600.7191282679978L2413.5481441481247 2003.5679073192937 2816.39692319942 2174.567068767356 2987.396084647483 1771.7182897160603z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M3522.564%2c589.133C3590.632%2c589.773%2c3667.455%2c583.881%2c3702.077%2c525.272C3737.072%2c466.031%2c3707.733%2c394.168%2c3672.729%2c334.933C3638.523%2c277.048%2c3589.753%2c224.009%2c3522.564%2c221.494C3451.59%2c218.838%2c3387.137%2c261.43%2c3351.58%2c322.913C3315.977%2c384.476%2c3310.37%2c462.114%2c3348.802%2c521.952C3384.77%2c577.953%2c3456.01%2c588.508%2c3522.564%2c589.133' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M2535.408%2c838.383C2745.075%2c845.53%2c2982.726%2c841.807%2c3096.63%2c665.633C3217.248%2c479.075%2c3173.27%2c229.121%2c3047.893%2c45.728C2936.897%2c-116.63%2c2732.062%2c-152.547%2c2535.408%2c-155.283C2332.08%2c-158.112%2c2106.67%2c-140.515%2c1997.616%2c31.117C1882.72%2c211.943%2c1917.978%2c451.209%2c2036.759%2c629.507C2143.845%2c790.251%2c2342.372%2c831.803%2c2535.408%2c838.383' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-402.93 1456.24 a596.54 596.54 0 1 0 1193.08 0 a596.54 596.54 0 1 0 -1193.08 0z' fill='rgba(255%2c 255%2c 255%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1173'%3e%3crect width='3840' height='2160' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='89.06%25' y1='119.44%25' x2='10.94%25' y2='-19.44%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1174'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(213%2c 222%2c 234%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+h1 {
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+.faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.faq {
+    background: rgba(255, 255, 255 , 0.05);
+    border: 1px solid #DDD;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    padding: 30px;
+}
+
+.faq.active {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+    content: '\f075';
+    font-family: 'Font Awesome 5 Free';
+    color: #2ECC71;
+    font-size: 7rem;
+    position: absolute;
+    opacity: 0.2;
+    top: 20px;
+    left: 20px;
+    z-index: 0;
+}
+
+.faq.active::before {
+    color: #3498DB;
+    top: -15px;
+    left: -30px;
+    transform: rotateY(180deg);
+}
+
+.faq-title {
+    margin: 0 35px 0 0;
+}
+
+.faq-text {
+    display: none;
+    margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+    display: block;
+}
+
+.faq-toggle {
+    background-color: rgba(255, 255, 255 , 0.05);
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.faq-toggle:focus {
+    outline: 0;
+}
+
+.faq-toggle .fa-times {
+    display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+    color: #FFF;
+    display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+    display: none;
+}
+
+.faq.active .faq-toggle {
+    background-color: #9FA4A8;
+    border-radius: 50%;
+}
